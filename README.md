@@ -15,8 +15,6 @@
 - 分布式管理：zookpeer
 
 
-[========]
-
 ### 商城首页
 [![商城首页](http://oy3l6utxs.bkt.clouddn.com/%E6%B7%98%E6%B7%98%E7%BD%91%E4%B8%8A%E5%95%86%E5%9F%8E%E9%A1%B5%E9%9D%A2.png "商城首页")](http://oy3l6utxs.bkt.clouddn.com/%E6%B7%98%E6%B7%98%E7%BD%91%E4%B8%8A%E5%95%86%E5%9F%8E%E9%A1%B5%E9%9D%A2.png "商城首页")
 ### 商品搜索页面
