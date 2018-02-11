@@ -39,7 +39,7 @@ tomcat-4    9094         9004            9014
 - Nginx服务
 - FastDFS服务
 #### 2.Redis集群
-- 4台Redis
+- 6台Redis
 ```
 root       1653      1  0 04:37 ?        00:00:21 /usr/local/redis/bin/redis-server 192.168.206.10:6379            
 root      95518      1  0 09:21 ?        00:00:00 ./redis-server 192.168.206.10:7001 [cluster]
