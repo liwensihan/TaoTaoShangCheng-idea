@@ -13,8 +13,33 @@
 - 日志管理：SLF4J 1.7、Log4j
 - 服务中间件：dubbo
 - 分布式管理：zookpeer
+- 图片服务器：FastDFS
+
+### 部署环境说明：
+#### 1.Solr-Cloud集群环境说明
+- 3台zookpeer
+```
+server.1=192.168.206.10:2891:4881
+
+server.2=192.168.206.10:2892:4882
+
+server.3=192.168.206.10:2893:5883
+```
+- 4台tomcat环境
+```
+tomcat-1    9091         9001            9011
+tomcat-2    9092         9002            9012
+tomcat-3    9093         9003            9013
+tomcat-4    9094         9004            9014
 
 
+```
+
+#### 2.FastDFS
+- Nginx服务
+- FastDFS服务
+#### 2.Redis集群
+- 4台Redis
 ### 商城首页
 [![商城首页](http://oy3l6utxs.bkt.clouddn.com/%E6%B7%98%E6%B7%98%E7%BD%91%E4%B8%8A%E5%95%86%E5%9F%8E%E9%A1%B5%E9%9D%A2.png "商城首页")](http://oy3l6utxs.bkt.clouddn.com/%E6%B7%98%E6%B7%98%E7%BD%91%E4%B8%8A%E5%95%86%E5%9F%8E%E9%A1%B5%E9%9D%A2.png "商城首页")
 ### 商品搜索页面
