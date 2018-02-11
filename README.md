@@ -39,7 +39,7 @@ tomcat-4    9094         9004            9014
 - Nginx服务
 - FastDFS服务
 #### 2.Redis集群
-- 6台Redis
+- 4台Redis
 ```
 root       1653      1  0 04:37 ?        00:00:21 /usr/local/redis/bin/redis-server 192.168.206.10:6379            
 root      95518      1  0 09:21 ?        00:00:00 ./redis-server 192.168.206.10:7001 [cluster]
@@ -49,6 +49,8 @@ root      95533      1  0 09:21 ?        00:00:00 ./redis-server 192.168.206.10:
 root      95538      1  0 09:21 ?        00:00:00 ./redis-server 192.168.206.10:7005 [cluster]
 root      95543      1  0 09:21 ?        00:00:00 ./redis-server 192.168.206.10:7006 [cluster]
 ```
+### 开发环境及包结构
+[![环境](http://oy3l6utxs.bkt.clouddn.com/%E7%8E%AF%E5%A2%83.jpg "环境")](http://oy3l6utxs.bkt.clouddn.com/%E7%8E%AF%E5%A2%83.jpg "环境")
 ### 商城首页
 [![商城首页](http://oy3l6utxs.bkt.clouddn.com/%E6%B7%98%E6%B7%98%E7%BD%91%E4%B8%8A%E5%95%86%E5%9F%8E%E9%A1%B5%E9%9D%A2.png "商城首页")](http://oy3l6utxs.bkt.clouddn.com/%E6%B7%98%E6%B7%98%E7%BD%91%E4%B8%8A%E5%95%86%E5%9F%8E%E9%A1%B5%E9%9D%A2.png "商城首页")
 ### 商品搜索页面
