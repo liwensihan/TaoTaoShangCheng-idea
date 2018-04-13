@@ -22,7 +22,7 @@
     <bean id="jedisClientPool" class="com.taotao.jedis.service.impl.JedisClientPool"></bean> -->
 
     <!-- redis集群版 -->
-    <bean id="jedisCluster" class="redis.clients.jedis.JedisCluster">
+   <!-- <bean id="jedisCluster" class="redis.clients.jedis.JedisCluster">
         <constructor-arg>
             <set>
                 <bean class="redis.clients.jedis.HostAndPort">
@@ -51,6 +51,6 @@
                 </bean>
             </set>
         </constructor-arg>
-    </bean>
+    </bean>-->
     <bean id="jedisClientCluster" class="com.taotao.jedis.service.impl.JedisClientCluster"></bean>
 </beans>
