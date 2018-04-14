@@ -27,10 +27,10 @@
         <!-- 数据库连接池 -->
         <property name="dataSource" ref="dataSource" />
         <!-- 加载mybatis的全局配置文件 -->
-    <!--    <property name="plugins">
+        <property name="plugins">
             <array>
                 <bean class="com.github.pagehelper.PageInterceptor">
-                    &lt;!&ndash; 这里的几个配置主要演示如何使用，如果不理解，一定要去掉下面的配置 &ndash;&gt;
+                    <!-- 这里的几个配置主要演示如何使用，如果不理解，一定要去掉下面的配置 -->
                     <property name="properties">
                         <value>
                             helperDialect=mysql
@@ -42,12 +42,11 @@
                     </property>
                 </bean>
             </array>
-        </property>-->
+        </property>
         <property name="configLocation" value="classpath:mybatis/SqlMapConfig.xml" />
     </bean>
     <!-- Mapper映射文件的包扫描器 -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="basePackage" value="com.taotao.mapper" />
     </bean>
-
 </beans>
